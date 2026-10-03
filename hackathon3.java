@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class hackathon3 {
 
     
-    public static double TotalWaste(double point1Waste, double point2Waste) 
+    public static double calculateTotalWaste(double point1Waste, double point2Waste) 
     {
         return point1Waste + point2Waste;
     }
@@ -20,7 +20,7 @@ public class hackathon3 {
         double point2Waste = sc.nextDouble();
 
     
-        double totalWaste = TotalWaste(point1Waste, point2Waste);
+        double totalWaste = calculateTotalWaste(point1Waste, point2Waste);
         System.out.println("Total Waste Collected: " + totalWaste + " kg");
 
         sc.close();
